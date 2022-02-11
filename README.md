@@ -62,3 +62,23 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Please follw the bellow process to setup the project.
+
+get a clone using "git clone https://github.com/DinuraNemitha/online-support-platform.git"
+
+start your xampp server and create the database -  name of the datebase that I have used is "online-support-platform"
+
+Then open your terminal in the project root and update the composer - "composer update"
+
+Then run "php artisan migrate:refresh --seed". This will config the database with relevant tables with data. 
+
+use "php artisan serve" command to serve the project and copy the generated url and open it on your browser. 
+Then it will redirect to a login form. You can use below username and pasword to login as a support agent. This data created using database seeders. 
+
+username - dinu.ad.nemith@gmail.com
+password - 123456
+
+After login to the system, you'll be able to see the ticket list and other features related to that.
+
+Unfortunately I couldn't complete the guest user ticket creation process. Rest of the features are available. 
